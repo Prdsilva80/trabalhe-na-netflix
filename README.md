@@ -1,6 +1,6 @@
 > Projeto criado da Netflix Móvel
 
-[Acesse aqui](https://prdsilva80.github.io/trabalhe-na-natflix/)
+[Acesse aqui](https://prdsilva80.github.io/trabalhe-na-netflix/)
 
 
 ![preview](./.github/preview.png)
