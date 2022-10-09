@@ -40,15 +40,15 @@
                 />
 
                 <ul class="list">
-                    <li><a href="#">Equipes</a></li>
-                    <li><a href="#">Localizações</a></li>
-                    <li><a href="#">Vida na Netflix</a></li>
+                    <li><a href="#equipes">Equipes</a></li>
+                    <li><a href="#localização">Localizações</a></li>
+                    <li><a href="#vida_na_netflix">Vida na Netflix</a></li>
                     <li>
                         <ul>
-                            <li><a href="#">Memorando de Cultura Netflix</a></li>
-                            <li><a href="#">Equilibrio da Vida Profissional</a></li>
-                            <li><a href="#">Inclusão e Diversidade</a></li>
-                            <li><a href="#">Blog</a></li>
+                            <li><a href="#memorando_de_cultura_netflix">Memorando de Cultura Netflix</a></li>
+                            <li><a href="#equilibrio_da_vida_profissinal">Equilibrio da Vida Profissional</a></li>
+                            <li><a href="#inclusão_e_diversidade">Inclusão e Diversidade</a></li>
+                            <li><a href="#blog">Blog</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -57,23 +57,7 @@
 
     </div>
 
-    <script>
-
-        const openButton = document.querySelector(".open-btn");
-        const closeButton = document.querySelector(".close-btn");
-        const navs = document.querySelectorAll(".nav");
-
-        openButton.addEventListener("click", () =>
-            navs.forEach((nav) => nav.classList.add("visible"))
-        );
-
-        closeButton.addEventListener("click", () =>
-            navs.forEach((nav) => nav.classList.remove("visible"))
-        );
-
-    </script>
-
-
+    <script src="script.js"></script>
     
 </body>
 </html>
